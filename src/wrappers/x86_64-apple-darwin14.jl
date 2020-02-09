@@ -26,14 +26,18 @@ const libepoxy = "@rpath/libepoxy.0.dylib"
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"Libepoxy")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    append!.(Ref(PATH_list), (Libglvnd_jll.PATH_list, Xorg_libX11_jll.PATH_list,))
-    append!.(Ref(LIBPATH_list), (Libglvnd_jll.LIBPATH_list, Xorg_libX11_jll.LIBPATH_list,))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
+    # then append them to our own.
+    foreach(p -> append!(PATH_list, p), (Libglvnd_jll.PATH_list, Xorg_libX11_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (Libglvnd_jll.LIBPATH_list, Xorg_libX11_jll.LIBPATH_list,))
 
-    global libepoxy_path = abspath(joinpath(artifact"Libepoxy", libepoxy_splitpath...))
+    global libepoxy_path = normpath(joinpath(artifact_dir, libepoxy_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.

@@ -1,113 +1,123 @@
 [[Libepoxy]]
 arch = "aarch64"
-git-tree-sha1 = "dbbdc52fe84386a0f627f77a41c52c8e5e7ac267"
-libc = "musl"
-os = "linux"
-
-    [[Libepoxy.download]]
-    sha256 = "4f580fff2adb2c6d11085225ffe065fa6b252deb08239db87a7226f1dd2dc0ea"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.aarch64-linux-musl.tar.gz"
-[[Libepoxy]]
-arch = "i686"
-git-tree-sha1 = "a90700627355a8ab970fed1d6291e3e6539bb8e0"
-os = "windows"
-
-    [[Libepoxy.download]]
-    sha256 = "0192f067963335a8a5b9c4ee2c1b33c8c5a8413e54ee6230d8c66c1be3023edc"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.i686-w64-mingw32.tar.gz"
-[[Libepoxy]]
-arch = "x86_64"
-git-tree-sha1 = "2304fbc1a4c89887e06ba9ab94df2d87f8bed59e"
-libc = "musl"
-os = "linux"
-
-    [[Libepoxy.download]]
-    sha256 = "10ca907a688d81c7cda1d1616d6ee11352479e428641587ea63b6b371cf05db4"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.x86_64-linux-musl.tar.gz"
-[[Libepoxy]]
-arch = "i686"
-git-tree-sha1 = "b83d24ae42fbfcad132db94c2b138e59a8fe9d16"
-libc = "glibc"
-os = "linux"
-
-    [[Libepoxy.download]]
-    sha256 = "5c5e43b8ea014e5c82760c90f6db671a9af535b812ff07a59c8aa09135793142"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.i686-linux-gnu.tar.gz"
-[[Libepoxy]]
-arch = "armv7l"
-git-tree-sha1 = "e2c330ffc2d7b8bae70dec35c76ca457e347158c"
-libc = "glibc"
-os = "linux"
-
-    [[Libepoxy.download]]
-    sha256 = "0194c67ef20f5039a426b512164cd77915c01af895af425f043ba25fec8b1dfc"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.armv7l-linux-gnueabihf.tar.gz"
-[[Libepoxy]]
-arch = "aarch64"
-git-tree-sha1 = "168df5a6a8c22d3d18db1e346e4008c9351bbb59"
-libc = "glibc"
-os = "linux"
-
-    [[Libepoxy.download]]
-    sha256 = "e0a3f7308d1534aa211d073d7ee170a40ae998dd39b6735df79347eaa9504110"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.aarch64-linux-gnu.tar.gz"
-[[Libepoxy]]
-arch = "x86_64"
-git-tree-sha1 = "597c895c3922d0c91ae93d538514709b520b03e1"
-libc = "glibc"
-os = "linux"
-
-    [[Libepoxy.download]]
-    sha256 = "2dc18273ae29c29d395fa5f737097ccd155cccbb5d526b77330dfe0d44904157"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.x86_64-linux-gnu.tar.gz"
-[[Libepoxy]]
-arch = "powerpc64le"
-git-tree-sha1 = "a5786ae57a4f8d338f9090c0012ba226d4536dbc"
-libc = "glibc"
-os = "linux"
-
-    [[Libepoxy.download]]
-    sha256 = "f06505e58e58aadccca92fcdfc4082a46493248b4cbebf0488c6722dca39e514"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.powerpc64le-linux-gnu.tar.gz"
-[[Libepoxy]]
-arch = "x86_64"
-git-tree-sha1 = "598e138d78c045309b258d6a0e14ba17b8905e44"
+git-tree-sha1 = "ea5f52e3555d6223811558a19bb41c14768ab84c"
 os = "macos"
 
     [[Libepoxy.download]]
-    sha256 = "b65c45ad0a598e9ab297b10cbf48b4c487e9546216606cae69dc854026cdb094"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.x86_64-apple-darwin14.tar.gz"
+    sha256 = "e22d6d205dd85a96d70cfba4d8aff485f8adf008190bc74a0185c1277bcbb0aa"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.aarch64-apple-darwin.tar.gz"
 [[Libepoxy]]
-arch = "x86_64"
-git-tree-sha1 = "d4a0ffcd1b30a4926eb2cf18bd62349b2dfd8a25"
-os = "freebsd"
+arch = "aarch64"
+git-tree-sha1 = "251c62363a8bba7cf7820495a88bbd72a99399b4"
+libc = "glibc"
+os = "linux"
 
     [[Libepoxy.download]]
-    sha256 = "12aa05f11b84a8bd4d237b03c0c01db12c0559fd4bbb15dab93a7152e0bb5cec"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "d5d06a5a84cea5f67a644d7d95bd956c41870083ba730f1db5f95999400e3cca"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.aarch64-linux-gnu.tar.gz"
 [[Libepoxy]]
-arch = "i686"
-git-tree-sha1 = "b4cce888debff3eb0715ee03cdb73b164ac33df6"
+arch = "aarch64"
+git-tree-sha1 = "cabcd3f2fcdb226a7710acda129e2da31e8c0c64"
 libc = "musl"
 os = "linux"
 
     [[Libepoxy.download]]
-    sha256 = "71400c3445b38df6d1ed971caf097eda6e9ebe9a8a604db86bed2616a45eaaaa"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.i686-linux-musl.tar.gz"
+    sha256 = "eba20af0b3cb84c8a0dc25b741b8462d47c6cbef89ca6aca3b9db5d7be6a1a33"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.aarch64-linux-musl.tar.gz"
 [[Libepoxy]]
 arch = "armv7l"
-git-tree-sha1 = "6aa9fc0c5737e1a2b5e706ceaeba7e0edb0497f1"
+call_abi = "eabihf"
+git-tree-sha1 = "5010da2109e72e98973da9ddebc220bde1734c6e"
+libc = "glibc"
+os = "linux"
+
+    [[Libepoxy.download]]
+    sha256 = "ff6d2dbd79536378871de5a79487ebe8542a306b565f4c064151d6a4c86cbc69"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.armv7l-linux-gnueabihf.tar.gz"
+[[Libepoxy]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "0e9e36b607381dddc2d8decc8d8958b338fe31c4"
 libc = "musl"
 os = "linux"
 
     [[Libepoxy.download]]
-    sha256 = "4eaca08da8897248831d08e34edf1e4bc77f6bd175395e9940f3875a729f7af6"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "4792fb8f0b6e4e49a9190a5dfc2e715abc2af0254627a6755639f753f48ad24c"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.armv7l-linux-musleabihf.tar.gz"
 [[Libepoxy]]
-arch = "x86_64"
-git-tree-sha1 = "34825b1cb6925c635dafc6ad3c2c3d161f48d609"
+arch = "i686"
+git-tree-sha1 = "56cf63b3bc6571e61b23735e507dc1a2fc7c0b92"
+libc = "glibc"
+os = "linux"
+
+    [[Libepoxy.download]]
+    sha256 = "f0c5871f1dd9c7a74f9d12e3825ddd68fc59847c5a0ce981688254c574d8bdb9"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.i686-linux-gnu.tar.gz"
+[[Libepoxy]]
+arch = "i686"
+git-tree-sha1 = "41d512e0715384e300f3f464629107eacb77ec94"
+libc = "musl"
+os = "linux"
+
+    [[Libepoxy.download]]
+    sha256 = "f5dd54497c10630328bed375a35bae46c44570df7a2d7bdd55c761abe6b17b57"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.i686-linux-musl.tar.gz"
+[[Libepoxy]]
+arch = "i686"
+git-tree-sha1 = "62146bf0ab5d45da221ea4320d5a490e25dbeb96"
 os = "windows"
 
     [[Libepoxy.download]]
-    sha256 = "da4ecdc79caff7eaab85a91af6070a6722fd91cab24e2c9039e27189b58b4841"
-    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.4+0/Libepoxy.v1.5.4.x86_64-w64-mingw32.tar.gz"
+    sha256 = "b794d2b63d6945db68d722e43f0cea9b02c2b71be5f7aea20157e440546c4de8"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.i686-w64-mingw32.tar.gz"
+[[Libepoxy]]
+arch = "powerpc64le"
+git-tree-sha1 = "2c901d6dfb1a225baf44f0846442baf0b54942ab"
+libc = "glibc"
+os = "linux"
+
+    [[Libepoxy.download]]
+    sha256 = "db1a2135c8d8bd04cab6a8cc3d4c658734a938841ee8d5f4b6063e47390a1a83"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.powerpc64le-linux-gnu.tar.gz"
+[[Libepoxy]]
+arch = "x86_64"
+git-tree-sha1 = "a068770fee49d8585b1b49a303f6fa6a7ef27b61"
+os = "macos"
+
+    [[Libepoxy.download]]
+    sha256 = "a01ad909afecc160d87f955761569f393b0c0064621392d39b5c718f85cc9e93"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.x86_64-apple-darwin.tar.gz"
+[[Libepoxy]]
+arch = "x86_64"
+git-tree-sha1 = "2f09eae36694c9eb1e1aa6db50795853b37cbd84"
+libc = "glibc"
+os = "linux"
+
+    [[Libepoxy.download]]
+    sha256 = "a2e8a8e453644a4093472d45a5460d29dd8aee0f9f157a698ed837171d2d8f97"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.x86_64-linux-gnu.tar.gz"
+[[Libepoxy]]
+arch = "x86_64"
+git-tree-sha1 = "ad8694fbc642f7ff5d1e3a58e76f284e110638de"
+libc = "musl"
+os = "linux"
+
+    [[Libepoxy.download]]
+    sha256 = "88d40a782b7916abf85e932971bd269d85789392850c7883b3bc4cc4f1698667"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.x86_64-linux-musl.tar.gz"
+[[Libepoxy]]
+arch = "x86_64"
+git-tree-sha1 = "c67a051e24824bd253a07a6bac06f6c69ee1a71f"
+os = "freebsd"
+
+    [[Libepoxy.download]]
+    sha256 = "4b32a2c4b3fdee97ffd91d8b06b566a7f61b38681e0c89fdf06cbdc10a7ff78d"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.x86_64-unknown-freebsd.tar.gz"
+[[Libepoxy]]
+arch = "x86_64"
+git-tree-sha1 = "8d32553ff9abd9a2a0db4181dae8e963304aa0c2"
+os = "windows"
+
+    [[Libepoxy.download]]
+    sha256 = "953e3838bf8421be1a841d7e1e598a3f96ff8a54678413eab6b8cc061c91a158"
+    url = "https://github.com/JuliaBinaryWrappers/Libepoxy_jll.jl/releases/download/Libepoxy-v1.5.8+0/Libepoxy.v1.5.8.x86_64-w64-mingw32.tar.gz"
